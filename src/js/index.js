@@ -13,11 +13,9 @@ import Home from "./component/home.jsx";
 
 //render your react application
 
-let counter =0;
+
                         //milliseconds for every second
 //setInterval (function(), 1000)
-setInterval(function (){
-    ReactDOM.render(<Home counter = {counter} />, document.querySelector("#app"));
-    counter++;
-}, 1000)
 
+    ReactDOM.render(<Home />, document.querySelector("#app"));
+ 

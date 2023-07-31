@@ -3,7 +3,7 @@ import SimpleCounter from './simpleCounter';
 import calculateSeconds from '../../lib/libTime';
 
 const Timer = () => {
-  const initialTime = 0; // Initial time in seconds
+  const initialTime = 0;
   const [time, setTime] = useState(initialTime);
   const [timerRunning, setTimerRunning] = useState(false);
 

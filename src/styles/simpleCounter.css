@@ -19,14 +19,11 @@
 @media (max-width: 768px) {
   .counterDisplay div {
     font-size: 80px;
-    /* Reduce the font size of the digits */
     width: 70px;
   }
 
   .btn {
     margin-top: 20px;
-    /* Adjust the margin at the top of the buttons container */
-
   }
 
   button {
